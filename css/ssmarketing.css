@@ -1,0 +1,111 @@
+/*@media screen and (min-width:000px) {
+  #navbtn {
+    display:flex;
+  }
+
+@media screen and (min-width:768px) {
+  #navbtn {
+    display:none;
+  }*/
+  nav a {
+    display:inline-block;
+    width:22%;
+    margin-left:2%;
+    padding:2%;
+    background-color:#ffe400;
+    color:#000000;
+    text-decoration:none;
+    margin-top:1%;
+    box-sizing: border-box;
+    border-radius: 20%;
+    border:5px solid #ffe400;
+    /*border-width:12px;
+    border-color:#45a29e;*/
+  }
+ nav a:hover {
+   text-decoration: none;
+   color:#ffffff;
+ }
+ nav a:hover {
+ animation-name:anima;
+ animation-duration:1s;
+ animation-iteration-count:infinite;
+ }
+ /*}*/
+@keyframes anima{
+    0%   {transform:scale(0.5);}
+    50%  {transform:scale(1.2);}
+    100% {transform:scale(1);}
+ }
+ img {
+   width:50%;
+   height:13em;
+ }
+ #intro {
+   padding:5% 1%;
+   padding-top:15%;
+   color:#c5c6c7;
+ }
+ #h1 {
+   padding:3% 0%;
+   color:#66fcf1;
+ }
+ #contactus {
+   padding:15% 0%;
+   height:100vh;
+   color:#ff6525;
+   border:5px solid #ff6525;
+ }
+ #aboutus {
+   height:100vh;
+   border:5px solid #ffe400;
+ }
+ #delivery {
+   height:100vh;
+   color:#86c232;
+   border:5px solid #86c232;
+ }
+ #more{
+   display:none;
+ }
+ #myBtn {
+   background-color:#66fcf1;
+   color:#000000;
+   padding:2%;
+   margin-bottom:1%;
+   border:5px solid #66fcf1;
+ }
+ #myBtn:hover {
+   animation-name:anima;
+   animation-duration:1s;
+   animation-iteration-count:infinite;
+ }
+ body {
+   background-color:#0b0c10;
+ }
+ #c1 {
+   color:#ffe400;
+ }
+ #models {
+   border:5px solid;
+   color:#66fcf1;
+ }
+ .row {
+   color:#c5c6c7;
+ }
+ img {
+   margin-left:6em;
+ }
+ @media screen and (min-width:000px) {
+   img {
+     margin-left:10em;
+   }
+ }
+ @media screen and (min-width:760px){
+   nav a {
+     font-size:125%;
+   }
+   img {
+     margin-left:6em;
+   }
+ }
